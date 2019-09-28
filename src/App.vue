@@ -1,12 +1,15 @@
 <template>
   <div id="app">
-    Maker开始
+    <Layout />
   </div>
 </template>
 
 <script>
-
+import Layout from '@/pages/Layout/index.vue'
 export default {
-  name: 'app'
+  name: 'app',
+  components: {
+    Layout
+  }
 }
 </script>

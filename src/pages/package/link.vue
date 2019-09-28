@@ -5,7 +5,7 @@
 </template>
 <script>
 export default {
-    name: 'Layout',
+    name: 'Link',
     data() {
         return {
 
