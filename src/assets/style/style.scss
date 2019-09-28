@@ -1,0 +1,136 @@
+/*
+ * description: private style files
+ * author: sillyy
+ * note: Please do not modify
+ */
+.ibox {
+  clear: both;
+  margin-bottom: 25px;
+  margin-top: 0;
+  padding: 0;
+}
+.ibox.collapsed .ibox-content {
+  display: none;
+}
+.ibox:after,
+.ibox:before {
+  display: table;
+}
+.ibox-title {
+  -moz-border-bottom-colors: none;
+  -moz-border-left-colors: none;
+  -moz-border-right-colors: none;
+  -moz-border-top-colors: none;
+  background-color: #f0f3f8;
+  border-color: #e7eaec;
+  border-image: none;
+  border-style: solid solid none;
+  border-width: 2px 0 0;
+  color: inherit;
+  margin-bottom: 0;
+  padding: 15px 15px 7px;
+  min-height: 48px;
+}
+.ibox-content {
+  background-color: #ffffff;
+  color: inherit;
+  min-height: 80px;
+  padding: 15px 20px 20px 20px;
+  border-color: #eee;
+  border-image: none;
+  border-style: solid;
+  border-width: 1px;
+}
+.ibox-footer {
+  color: inherit;
+  border-top: 1px solid #e7eaec;
+  font-size: 90%;
+  background: #ffffff;
+  padding: 10px 15px;
+}
+.form,
+.search {
+  width: 100%;
+}
+.tal {
+  text-align: left;
+}
+
+.tac {
+  text-align: center;
+}
+
+.tar {
+  text-align: right;
+}
+
+.fw-500 {
+  font-weight: 500;
+}
+.ft-600 {
+  font-weight: 600;
+}
+
+.mt-10 {
+  margin-top: 10px;
+}
+.mr-10 {
+  margin-right: 10px;
+}
+.mb-10 {
+  margin-bottom: 10px;
+}
+.ml-10 {
+  margin-left: 10px;
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
+.mr-20 {
+  margin-right: 20px;
+}
+.mb-20 {
+  margin-bottom: 20px;
+}
+.ml-20 {
+  margin-left: 20px;
+}
+
+.before {
+  position: relative;
+  &:before {
+    position: absolute;
+    left: -10px;
+    top: 3px;
+    width: 3px;
+    height: 17px;
+    content: '';
+    background: #558fe0;
+  }
+}
+
+.rules {
+  position: relative;
+  &:before {
+    position: absolute;
+    left: -20px;
+    top: 12px;
+    content: '*';
+    color: red;
+    font-size: 16px;
+  }
+}
+
+// 重写element-ui样式
+.el-dialog {
+  border-radius: 12px;
+}
+
+.el-table {
+  border: 1px solid #eeeeee;
+  border-bottom: 0;
+  thead > tr > th {
+    background-color: #f0f3f8;
+  }
+}
