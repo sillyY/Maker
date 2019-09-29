@@ -1,17 +1,14 @@
 import Vue from 'vue'
 import Vuex from 'vuex'
 
-import auth from './modules/auth'
-import order from './modules/order'
+import components from './modules/components'
 
 Vue.use(Vuex)
 
 const store = new Vuex.Store({
 	modules: {
-		auth,
-		order
+		components
 	},
-	// getters
 })
 
 export default store
